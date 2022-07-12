@@ -1,3 +1,10 @@
+
+#  Copyright (c) 2022 MillenniumEarl
+#
+#  This software is released under the MIT License.
+#  https://opensource.org/licenses/MIT
+#
+
 # Standard imports
 import argparse
 import json
@@ -314,8 +321,8 @@ def add_translation(project_json_path: str, file):
       f.write(line)
 
 if __name__ == "__main__":
-  parser = argparse.ArgumentParser(description='''Application for the localization of games developed with Pixel Game Maker.\n\n
-                                  To use the program, specify the path of the 'Project.json' file or place this script in its own directory.\n\n
+  parser = argparse.ArgumentParser(description='''Application for the localization of games developed with Pixel Game Maker MV.\n\n
+                                  To use the program, specify the path of the 'project.json' file or place this script in its own directory.\n\n
                                   By default the translation language is [Auto] -> [en_US], it is possible to specify the destination language''')
   
   parser.add_argument('-p', '--path', action="store", default=None, help="The path to the file containing the information about the game")
@@ -328,7 +335,7 @@ if __name__ == "__main__":
                       help="Specifies whether to skip the translation in the event that the specified language is already present (useful in case of partial localization)")
   
   parser.add_argument('-e', '--export-localization', action="store", default=None,
-                      help="Path to which export localization strings, in the event that it is necessary to process them later and so as not to have to analyze 'Project.json' again")
+                      help="Path to which export localization strings, in the event that it is necessary to process them later and so as not to have to analyze 'project.json' again")
   
   parser.add_argument('-i', '--import-localization', action="store", default=None, help="Path from which import the localization strings exported previously")
   
