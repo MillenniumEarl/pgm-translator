@@ -9,9 +9,9 @@
 
 This script deals with translating and optimizing the data, contained in the `project.json` file, of a game developed with [Pixel Game Maker MV](https://tkool.jp/act/en/index.html).
 
-To function correctly, the file must be readable, that is, that it is decrypt. For this, please refer to the following link on [F95Zone](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjj3Myr1vP4AhVFXvEDHcmODIcQFnoECBoQAQ&url=https%3A%2F%2Ff95zone.to%2Fthreads%2Fpixel-game-maker-mv-extractor.105950%2F&usg=AOvVaw3bguItkoSn-u3_3s_LLRrK) (courtesy of @xj47).
+To function correctly, the file must be readable, that means decrypted. For this, please refer to the following link on [F95Zone](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjj3Myr1vP4AhVFXvEDHcmODIcQFnoECBoQAQ&url=https%3A%2F%2Ff95zone.to%2Fthreads%2Fpixel-game-maker-mv-extractor.105950%2F&usg=AOvVaw3bguItkoSn-u3_3s_LLRrK) (courtesy of @xj47).
 
-The script is completely automatic but it is still possible to extract the location strings for manual modification.
+The script is completely automatic but it is still possible to extract the localization strings for manual modification.
 
 ## Quick-start
 
